@@ -1,0 +1,43 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+section {
+  padding: 10px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-question button {
+  min-width: 80px;
+}
+
+.flashcard {
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+  background: #e9f5ff;
+  transition: transform 0.3s;
+}
+
+.flashcard.known {
+  background: #d4edda;
+  border-color: #28a745;
+}
+
+.flashcard.flip {
+  transform: rotateY(180deg);
+}
+
+textarea {
+  resize: vertical;
+}

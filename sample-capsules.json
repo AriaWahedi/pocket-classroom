@@ -1,0 +1,70 @@
+[
+    {
+        "id": "capsule_1",
+        "title": "Basic Math",
+        "subject": "Math",
+        "level": "Beginner",
+        "notes": [
+            "Addition",
+            "Subtraction",
+            "Multiplication"
+        ],
+        "flashcards": [
+            {
+                "front": "2+2",
+                "back": "4"
+            },
+            {
+                "front": "3+5",
+                "back": "8"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "2+2=?",
+                "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ],
+                "correct": 1
+            }
+        ],
+        "updatedAt": "2025-10-24T00:00:00Z"
+    },
+    {
+        "id": "capsule_2",
+        "title": "English Basics",
+        "subject": "English",
+        "level": "Beginner",
+        "notes": [
+            "Alphabet",
+            "Greetings",
+            "Numbers"
+        ],
+        "flashcards": [
+            {
+                "front": "Hello",
+                "back": "سلام"
+            },
+            {
+                "front": "Thank you",
+                "back": "متشکرم"
+            }
+        ],
+        "quiz": [
+            {
+                "question": "Hello in Persian?",
+                "options": [
+                    "سلام",
+                    "خداحافظ",
+                    "تشکر",
+                    "خوب"
+                ],
+                "correct": 0
+            }
+        ],
+        "updatedAt": "2025-10-24T00:00:00Z"
+    }
+]
